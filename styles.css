@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 40%;
+  margin-top: 40vh;
+}
+
+.deeznuts {
+  border: 2px solid black;
+  padding: 1em 1em;
+}
+
+.deeznuts:focus,
+.deeznuts:hover {
+  color: white;
+  background-color: black;
+}
+
+.hidden {
+  display: none;
+}
